@@ -3,7 +3,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    font-family: "Crimson Text", serif;
+    font-family: "Roboto", serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 145%;
@@ -16,14 +16,16 @@ body {
     min-width: 300px;
 }
 
+
+
 h4 {
    color: rgb(0,100,255);
-   font-family: "Open Sans", sans-serif;
+   font-family: "Roboto", sans-serif;
    margin-bottom:20px;
 }
 
 h1, h2, h3, th{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: rgb(36, 41, 46);
 }
 

@@ -13,10 +13,19 @@
 </head>
 
 <body>
+    <div id = "toc" class='section'>
+        <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#vocoders">Vocoders</a></li>
+            <li><a href="#tts1">TTS1 - no data cleaning</a></li>
+            <li><a href="#tts2">TTS2 - with data cleaning from the DU team</a></li>
+            <li><a href="#tts3">TTS3 - with data cleaning and dereverberation</a></li>
+        </ul>
+    </div>
 
 
 
-    <div id='section-1' class='section'>
+    <div id='vocoders' class='section'>
         <h2>GIZ project</h2>
 
         <hr>
@@ -34,50 +43,51 @@
                 <th style="width:33%">Waveglow</th>
             </tr>
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/natural/TTS_01_1.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_01_1.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/paralelwg/TTS_01_1_gen.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/waveglow/TTS_01_1.wav_synthesis.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/natural/TTS_01_2.wav' type='audio/mpeg'></audio></div></td>   
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_01_2.wav' type='audio/mpeg'></audio></div></td>   
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/paralelwg/TTS_01_2_gen.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/waveglow/TTS_01_2.wav_synthesis.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/natural/TTS_01_3.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_01_3.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/paralelwg/TTS_01_3_gen.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/waveglow/TTS_01_3.wav_synthesis.wav' type='audio/mpeg'></audio></div></td>
             </tr>
                 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/natural/TTS_01_4.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_01_4.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/paralelwg/TTS_01_4_gen.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/waveglow/TTS_01_4.wav_synthesis.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/natural/TTS_01_5.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_01_5.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/paralelwg/TTS_01_5_gen.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/waveglow/TTS_01_5.wav_synthesis.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/natural/TTS_01_6.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_01_6.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/paralelwg/TTS_01_6_gen.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/vocoder/waveglow/TTS_01_6.wav_synthesis.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             </tbody>
         </table>
-
+        </div>
 
 
 <hr>
+     <div id='tts1' class='section'>
         <h4>First version of TTS - FastPitch + Waveglow / ParallelWaveGan Samples</h3>
-         <p>Used the 4015 samples</p>
+         <p>Used the 4015 samples <b>BEFORE</b> cleaning them up</p>
         
         
         <table border="2" align="center" cellpadding="20" cellspacing="0" bordercolor="#F4F4F4" style="width:100%">
@@ -90,45 +100,162 @@
                 <th style="width:33%">Waveglow</th>
             </tr>
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/natural/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg//TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/waveglow/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             <tr>
-                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/natural/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/waveglow/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/natural/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/waveglow/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
             </tr>
                 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/natural/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/waveglow/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/natural/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/waveglow/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
 
             <tr>
-                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/natural/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/parallelwg/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_1/waveglow/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             </tbody>
         </table>
+        </div>
 
+
+        <hr>
+
+        <div id='tts2' class='section'>
+
+        <h4>Second version of TTS - FastPitch + Waveglow / ParallelWaveGan Samples</h3>
+         <p>Used the 4015 samples <b>AFTER</b> cleaning them up</p>
+        
+        
+        <table border="2" align="center" cellpadding="20" cellspacing="0" bordercolor="#F4F4F4" style="width:100%">
+            <!--<table border="1" style="width:50%" align="center">-->
+
+            <tbody style="width:90%">
+			<tr>
+                <th style="width:33%">Natural</th>
+                <th style="width:33%"> ParallelWaveGAN</th>
+                <th style="width:33%">Waveglow</th>
+            </tr>
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/parallelwg//TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/waveglow/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/parallelwg/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/waveglow/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/parallelwg/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/waveglow/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+                
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/parallelwg/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/waveglow/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/parallelwg/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/waveglow/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/parallelwg/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_2/waveglow/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            </tbody>
+        </table>
+        </div>
+
+
+        <hr>
+
+        <div id='tts3' class='section'>
+        <h4>Third version of TTS - FastPitch + Waveglow / ParallelWaveGan Samples</h3>
+         <p>Used the 4015 samples <b>AFTER</b> cleaning them up plus <b>DEREVERBERATION</b></p>
+        
+        
+        <table border="2" align="center" cellpadding="20" cellspacing="0" bordercolor="#F4F4F4" style="width:100%">
+            <!--<table border="1" style="width:50%" align="center">-->
+
+            <tbody style="width:90%">
+			<tr>
+                <th style="width:33%">Natural</th>
+                <th style="width:33%"> ParallelWaveGAN</th>
+                <th style="width:33%">Waveglow</th>
+            </tr>
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/deverb/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/parallelwg//TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/waveglow/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/deverb/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/parallelwg/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/waveglow/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/deverb/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/parallelwg/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/waveglow/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+                
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/deverb/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/parallelwg/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/waveglow/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/deverb/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/parallelwg/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/waveglow/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/deverb/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/parallelwg/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_3/waveglow/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            </tbody>
+        </table>
+        </div>
 <!--
         <div class='playlist'>
             <div class='labeled-audio'><audio preload='metadata' controls><source src='samples/paralelwg/TTS_01_1_gen.wav' type='audio/mpeg'></audio></div>
