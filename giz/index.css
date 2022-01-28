@@ -72,7 +72,8 @@ li:first-of-type {
 }
 
 a {
-    color: rgb(68, 128, 200)
+   /* color: rgb(68, 128, 200)*/
+    color: rgb(200 68 189);
 }
 
 a:link {
