@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: "Roboto", serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 145%;
     color: rgb(75, 81, 93);
 }
@@ -22,6 +22,7 @@ h4 {
    color: rgb(0,100,255);
    font-family: "Roboto", sans-serif;
    margin-bottom:20px;
+   font-size: 20px;
 }
 
 h1, h2, h3, th{
@@ -44,7 +45,7 @@ h2 {
 
 h3 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 800;
     margin: 40px 0px 10px 0px;
     padding-bottom: 12px;
     border-bottom: 2px solid rgb(229,232,235);
@@ -60,11 +61,12 @@ ul {
     display:table;
     padding-left: 8%;
     margin: 0px 0px;
+    margin-bottom: 10px;
 }
 
 li {
-    font-size: 20px;
-    margin-top: 15px;
+    font-size: 16px;
+    margin-top: 0px;
 }
 
 li:first-of-type {
@@ -72,8 +74,8 @@ li:first-of-type {
 }
 
 a {
-   /* color: rgb(68, 128, 200)*/
-    color: rgb(200 68 189);
+   color: rgb(0, 100, 255)
+   /* color: rgb(200 68 189);*/
 }
 
 a:link {
@@ -102,7 +104,7 @@ select {
 
 hr {
     margin: 60px 0px;
-    border-bottom: 1px solid rgb(205, 208, 211);
+    border-bottom: 5px solid rgb(205, 208, 211);
 }
 
 p {
