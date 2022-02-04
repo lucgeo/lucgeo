@@ -33,8 +33,9 @@
             <li><a href="#tts2_1000">TTS2 - with transcript cleaning - 1000 epochs</a></li>
             <li><a href="#tts3_600">TTS3 - with transcript cleaning and dereverberation - 600 epochs</a></li>
             <li><a href="#tts3_1000">TTS3 - with transcript cleaning and dereverberation - 1000 epochs</a></li>
-            <li><a href="#tts4_1000"><strong style="color:maroon">NEW!</strong> TTS4 - finetune TTS2_600 with 1779 files selected by loss value - 600+400 epochs</a></li>
-            <li><a href="#tts5_1200"><strong style="color:maroon">NEW!</strong> TTS5 - finetune TTS2_1000 with better silence trimmed data - 1000+200 epochs</a></li>
+            <li><a href="#tts4_1000">TTS4 - finetune TTS2_600 with 1779 files selected by loss value - 600+400 epochs</a></li>
+            <li><a href="#tts5_1200">TTS5 - finetune TTS2_1000 with better silence trimmed data - 1000+200 epochs</a></li>
+            <li><a href="#tts5_1500"><strong style="color:maroon">NEW!</strong> TTS5 - finetune TTS2_1000 with better silence trimmed data - 1000+500 epochs</a></li>
         </ul>
     </div>
 
@@ -378,7 +379,7 @@
         <!-- FOURTH VERSION - tts_4_1000 -->
         <hr>
         <div id='tts4_1000' class='section'>
-        <h4><strong style="color:maroon">NEW!</strong> Fourth version of TTS - FastPitch + Waveglow Samples (3.02.2022)</h4>
+        <h4>Fourth version of TTS - FastPitch + Waveglow Samples (3.02.2022)</h4>
             <ul>
                 <li>3592 + 400 samples</li>
                 <li>1779 samples selected based on loss to finetune</li>
@@ -436,7 +437,7 @@
         <!-- FIFTH VERSION - tts_5_1200 -->
         <hr>
         <div id='tts5_1200' class='section'>
-        <h4><strong style="color:maroon">NEW!</strong> Fifth version of TTS - FastPitch + Waveglow Samples (3.02.2022)</h4>
+        <h4>Fifth version of TTS - FastPitch + Waveglow Samples (3.02.2022)</h4>
             <ul>
                 <li>3592 + 400 samples</li>
                 <li>Finetune TTS2_1000 with better silence trimming</li>
@@ -484,6 +485,65 @@
             <tr>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1200/waveglow/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            </tbody>
+        </table>
+        </div>
+
+
+
+        <!-- FIFTH VERSION - tts_5_1200 -->
+        <hr>
+        <div id='tts5_1500' class='section'>
+        <h4><strong style="color:maroon">NEW!</strong> Fifth version of TTS - FastPitch + Waveglow Samples (4.02.2022)</h4>
+            <ul>
+                <li>3592 + 400 samples</li>
+                <li>Finetune TTS2_1000 with better silence trimming</li>
+                <li>After DU cleaned the transcripts</li>
+                <li>Grapheme input</li>
+                <li>Audio normalisation and silence trimming</li>
+                <li>1000+500 epochs</li>
+            </ul> 
+        
+        
+        <table border="2" align="center" cellpadding="20" cellspacing="0" bordercolor="#F4F4F4" style="width:100%">
+            <!--<table border="1" style="width:50%" align="center">-->
+
+            <tbody style="width:90%">
+			<tr>
+                <th style="width:33%">Natural dereverberated</th>
+                <th style="width:33%">FastPitch + Waveglow</th>
+            </tr>
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1500/waveglow/TTS_19_137.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1500/waveglow/TTS_19_138.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1500/waveglow/TTS_19_139.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+                
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1500/waveglow/TTS_19_140.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1500/waveglow/TTS_19_141.wav' type='audio/mpeg'></audio></div></td>
+            </tr>
+
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/natural/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/tts_5_1500/waveglow/TTS_19_142.wav' type='audio/mpeg'></audio></div></td>
             </tr>
 
             </tbody>
