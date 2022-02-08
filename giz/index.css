@@ -78,6 +78,10 @@ a {
    /* color: rgb(200 68 189);*/
 }
 
+td {
+    padding-right:10px;
+}
+
 a:link {
     text-decoration: none;
 }
