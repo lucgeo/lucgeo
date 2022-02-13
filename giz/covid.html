@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GIZ project - Audio Samples</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    
+    <div id='title' class='section' style="background:#298b99;text-align:center; width:90%; max-width:100%">
+        <a href="https://zevo-tech.com/company/"><img src="zevotech.png" height=100 style="text-align:center"></img></a>
+        <h2 style="color:#ffc107;padding-bottom:20px">GIZ project 2022 - TTS Kinyarwanda</h2>
+    </div>
+    <hr>
+    
+    <div id = "toc" class='section'>
+        <h3>Table of Contents</h3>
+        <ul style="list-style-type:none;">
+            <li><a href="index.html#vocoders">Vocoders</a> </li>
+            <li><a href="tts1.html#tts1">TTS1 - no data cleaning</a></li>
+            <li><a href="tts2.html#tts2_600">TTS2 - with transcript cleaning - 600 epochs</a></li>
+            <li><a href="tts2.html#tts2_1000">TTS2 - with transcript cleaning - 1000 epochs</a></li>
+            <li><a href="tts3.html#tts3_600">TTS3 - with transcript cleaning and dereverberation - 600 epochs</a></li>
+            <li><a href="tts3.html#tts3_1000">TTS3 - with transcript cleaning and dereverberation - 1000 epochs</a></li>
+            <li><a href="tts4.html#tts4_1000">TTS4 - finetune TTS2_600 with 1779 files selected by loss value - 600+400 epochs</a></li>
+            <li><a href="tts5.html#tts5_1200">TTS5 - finetune TTS2_1000 with better silence trimmed data - 1000+200 epochs</a></li>
+            <li><a href="tts5.html#tts5_1500">TTS5 - finetune TTS2_1000 with better silence trimmed data - 1000+500 epochs</a></li>
+            <li><a href="tts6.html#tts6_2000">TTS6 - finetune TTS5_1500 with pitch_loss_scale=10 - 1500+500 epochs</a></li>
+            <li><a href="tts6.html#tts6_2300">TTS6 - finetune TTS5_1500 with pitch_loss_scale=10/100 - 1500+500+300 epochs</a></li>
+            <li><a href="covid.html#covid"><strong style="color:maroon">NEW!</strong> COVID-related samples</a></li>
+        </ul>
+    </div>
+
+
+
+    <!-- COVID SAMPLES -->
+        <hr>
+        <div id='covid' class='section'>
+        <h4><strong style="color:maroon">NEW!</strong> CoVID-related samples (8.02.2022)</h4>
+            <ul>
+                <li>TTS6_2000</li>
+            </ul> 
+        
+        
+        <table border="2" align="center" cellpadding="20" cellspacing="0" bordercolor="#F4F4F4" style="width:100%">
+            <!--<table border="1" style="width:50%" align="center">-->
+
+            <tbody style="width:90%">
+			
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15000.wav' type='audio/mpeg'></audio>
+                    Leta y'u Rwanda yumvikanye n'amahoteli gushyiraho ibiciro bidasanzwe abagenzi bazajya bishyura igihe bategereje igisubizo cy'ikizamini cya Koronavirusi</div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15001.wav' type='audio/mpeg'></audio>
+                     Abagenzi bose binjiye bagomba kumara amasaha makumyabiri n'ane muri hoteli yateganyijwe bategereje igisubizo cy'ikizamini gikurikira icyo bapimwe</div></td>
+            </tr>
+
+            <tr>
+                 <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15002.wav' type='audio/mpeg'></audio>
+                 Abantu bafashwe barenze ku mategeko yashyizweho kurwanya COVID-CUMI N'ICYENDA bajyanwa muri sitade bakirirwayo cyangwa bakarara yo nk'igihano</div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15003.wav' type='audio/mpeg'></audio>
+                Guhinduka kwa virusi biragaragara gusa iyo bihinduye ikintu cyingenzi kiranga virusi nkubushobozi bwayo bwo kwanduza abashyitsi batandukanye</div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15004.wav' type='audio/mpeg'></audio>
+                 Amaraso menshi yatanzwe nabantu batanduye bafite antibodies kuri Covid yabujije coronavirus nshya kwanduza selile mumasahani ya laboratoire.</div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15005.wav' type='audio/mpeg'></audio>
+                ku ishuri ry'ubuvuzi  bakoze icyitegererezo gikubiyemo amakuru yaturutse mu Bushinwa yakusanyijwe hagati ya Mutarama na Gashyantare hagati</div></td>
+            </tr>
+                
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15006.wav' type='audio/mpeg'></audio>
+                Ku mbuga nkoranyambaga hari benshi batangaje ko urukingo rwa COVID-CUMI N'ICYENDA hari uburyo ruzahindura uturemangingo fatizo tw'umuntu.</div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15007.wav' type='audio/mpeg'></audio>
+                mu igeragezwa ryateganijwe, rigenzurwa ku bantu barwaye indwara ziciriritse, iryo tsinda ryasanze nta mibare igabanuka ry'imibare y'impfu</div></td>
+            </tr>
+
+            <tr>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15008.wav' type='audio/mpeg'></audio>
+                Ufite ibyago byo kwandura COVID-CUMI N'ICYENDA niba warahuye n'umuntu wanduye COVID-CUMI N'ICYENDA iminsi ibiri mbere yuko bayimusangamo</div></td>
+                <td><div class='labeled-audio'><audio preload='metadata' controls><source src='samples/covid/covid_15009.wav' type='audio/mpeg'></audio>
+                Mubyukuri njyewe ndumva nkibigo bikora ubushakashatsi kubintu bitandukanye byakwemererwa gukora cyakora bigashyirirwaho ingamba zifatika</div></td>
+            </tr>
+
+
+          
+
+            </tbody>
+        </table>
+        </div>
+
+
+
+    
+    <hr>
+    <p style="text-align:center"> © <a href="https://zevo-tech.com/company/">Zevo Technologies</a>, 2022</p>
+ 
+
+
+
+</body>
+</html>
