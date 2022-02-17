@@ -78,8 +78,14 @@ a {
    /* color: rgb(200 68 189);*/
 }
 
+tr {
+    margin-bottom:10px;
+    
+}
 td {
+    border-bottom: 2px solid rgb(229,232,235);
     padding-right:10px;
+    
 }
 
 a:link {
